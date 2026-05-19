@@ -502,8 +502,8 @@ class _PortfolioHomeState extends State<PortfolioHome>
         ),
         const SizedBox(height: 16),
         _ProjectCard(
-          title: 'Add Your Next Project Here',
-          description: 'Replace this card in _buildProjects() with your real project. GitHub button already links to your profile.',
+          title: 'Next Project Here',
+          description: 'I will create something new.',
           tags: const ['Coming Soon'],
           color: const Color(0xFFFF6CAB), icon: Icons.add_circle_outline_rounded,
           isComingSoon: true,
