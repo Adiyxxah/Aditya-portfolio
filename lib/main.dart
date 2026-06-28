@@ -11,7 +11,7 @@ void main() {
 // ══════════════════════════════════════════════════
 const String kName     = 'Aditya Kumar Pradhan';
 const String kRole     = 'DevOps Engineer • Flutter Developer';
-const String kTagline  = 'Turning raw data into insights that drive decisions.';
+const String kTagline  = ' PipeLine.';
 const String kEmail    = 'pradhan.adi586@gmail.com';
 const String kPhone    = '+91-7326886586';
 const String kLocation = 'Bhanjanagar, Odisha';
