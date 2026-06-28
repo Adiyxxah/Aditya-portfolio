@@ -354,10 +354,10 @@ class _PortfolioHomeState extends State<PortfolioHome>
                 flex: wide ? 3 : 1,
                 child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
                   const Text(
-                    "I'm a motivated MCA graduate from Lovely Professional University "
-                        "with hands-on experience in Flutter, data analysis, Power BI dashboards, "
-                        "SQL optimisation, and cloud storage on AWS. I love finding stories "
-                        "hidden in raw data and turning them into actionable business insights.",
+                    "MCA graduate with hands-on experience in Linux, Docker, CI/CD pipelines, and cloud platforms (AWS, GCP)."
+                        "Built and deployed a containerized Flutter application with a full DevOps pipeline including GitHub Actions, Kubernetes, and Terraform. "
+                        "Experienced in IT support, technical troubleshooting, and cross-functional collaboration. Seeking a Cloud/DevOps Engineer or IT Support role to apply infrastructure automation and cloud skills in a production environment."
+                        ,
                     style: TextStyle(fontSize: 15, color: Colors.white70, height: 1.9),
                   ),
                   const SizedBox(height: 22),
@@ -411,19 +411,19 @@ class _PortfolioHomeState extends State<PortfolioHome>
       title: 'Experience', subtitle: 'My Journey',
       child: Column(children: [
         _ExperienceCard(
-          role: 'Associate', company: 'Tech Mahindra', period: 'Aug 2025 – Apr 2026',
+          role: 'Technical Support Associate', company: 'Tech Mahindra', period: 'Aug 2025 – Apr 2026',
           color: const Color(0xFF6C63FF), icon: Icons.business_rounded,
           bullets: const [
-            'Collected and cleaned product datasets using Excel and SQL',
-            'Built interactive Power BI dashboards for product performance insights',
-            'Managed SKU systems and AWS S3 image/metadata storage for inventory',
-            'Collaborated cross-functionally to validate large volumes of product data',
-            'Maintained high accuracy standards across all reporting deliverables',
+            'Provided Tier-1 technical support for enterprise software products via chat,resolving hardware,software,and connectivity issues with a focus on quick resolution and customer satisfaction.',
+            'Diagnosed and troubleshot OS-level issues (Windows), application errors, and network connectivity problems for end users across multiple client accounts.',
+            'Documented incidents, tracked ticket lifecycle using internal ITSM tools, and escalated complex issues to Tier-2 teams following defined SLA protocols.',
+            'Maintained knowledge base articles and updated SOPs to reduce repeat incidents, contributing to a 15% improvement in first-contact resolution rate.',
+            'Collaborated with cross-functional teams to coordinate issue resolution, communicating technical findings clearly to both technical and non-technical stakeholders.',
           ],
         ),
         const SizedBox(height: 18),
         _ExperienceCard(
-          role: 'Junior Analyst Intern', company: 'Tech3i', period: 'Aug 2023 – Aug 2024',
+          role: 'Junior Analyst Intern', company: 'Tech3i', period: 'Dec 2024 – Jun 2025',
           color: const Color(0xFF00D4FF), icon: Icons.analytics_rounded,
           bullets: const [
             'Supported ETL processes for structured data migration',
@@ -434,7 +434,7 @@ class _PortfolioHomeState extends State<PortfolioHome>
         ),
         const SizedBox(height: 18),
         _ExperienceCard(
-          role: 'Flutter Developer Intern', company: 'Software Lab', period: 'May 2023 – Aug 2023',
+          role: 'Flutter Developer Intern', company: 'Software Lab', period: 'Aug 2023 – Feb 2024',
           color: const Color(0xFFFF6CAB), icon: Icons.phone_android_rounded,
           bullets: const [
             'Built mobile app UIs using Flutter framework',
@@ -452,9 +452,8 @@ class _PortfolioHomeState extends State<PortfolioHome>
       sectionKey: _keys[3],
       title: 'Skills', subtitle: 'What I work with',
       child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-        _SkillGroup(category: '📊 Data Tools', skills: const [
-          _SkillItem('Power BI', 0.85), _SkillItem('Excel', 0.90),
-          _SkillItem('Tableau',  0.70), _SkillItem('Pandas', 0.75),
+        _SkillGroup(category: ' Cloud Platforms ', skills: const [
+          _SkillItem('AWS', 0.85), _SkillItem('GCP', 0.90),
         ]),
         const SizedBox(height: 26),
         _SkillGroup(category: '💻 Languages', skills: const [
