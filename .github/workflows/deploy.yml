@@ -1,0 +1,6 @@
+name: Deploy Flutter Portfolio
+
+on:
+  push:
+    branches:
+      - main
