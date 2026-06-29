@@ -20,3 +20,5 @@ jobs:
 
       - name: Install Dependencies
         run: flutter pub get
+      - name: Build Flutter Web
+        run: flutter build web --release --base-href "/Aditya-portfolio/"
