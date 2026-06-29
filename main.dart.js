@@ -34701,15 +34701,15 @@ p===$&&A.a()
 p=A.hM(new A.p7(A.d([q,p],t.bV)),new A.a3Y(l),k)
 q=l.y
 q===$&&A.a()
-q=A.XF(A.Zt(B.MW,new A.a3Z()),q)
+q=A.XF(A.Zt(B.MX,new A.a3Z()),q)
 o=A.ff(A.ak(B.c.ah(127.5),B.n.t()>>>16&255,B.n.t()>>>8&255,B.n.t()&255))
 n=A.cD(30)
 m=t.p
-return A.cE(B.aw,A.AQ(A.oi(A.di(A.d([p,B.Is,B.Pk,B.vh,q,B.ds,A.cE(k,B.MR,B.t,k,k,new A.bz(A.ak(B.c.ah(25.5),B.n.t()>>>16&255,B.n.t()>>>8&255,B.n.t()&255),k,o,n,k,k,B.M),k,k,k,k,B.zu,k,k,k),B.vi,B.MX,B.vl,A.e5(A.d([new A.wf("View My Work",B.zY,new A.a4_(l),k),B.vd,new A.wJ("Contact Me",B.A1,new A.a40(),k)],m),B.K,B.er,B.am),B.vl,A.a0z(B.vS,A.d([new A.mw("GitHub",B.hu,B.n,new A.a41(),k),new A.mw("LinkedIn",B.kh,B.jw,new A.a42(),k),new A.mw("pradhan.adi586@gmail.com",B.zT,B.aF,new A.a43(),k)],m),10,12)],m),B.K,B.er),r,k,!0),s),B.t,k,k,k,k,i.a.b-65,j,k,k,k,k,k)},
+return A.cE(B.aw,A.AQ(A.oi(A.di(A.d([p,B.Is,B.Pk,B.vh,q,B.ds,A.cE(k,B.MR,B.t,k,k,new A.bz(A.ak(B.c.ah(25.5),B.n.t()>>>16&255,B.n.t()>>>8&255,B.n.t()&255),k,o,n,k,k,B.M),k,k,k,k,B.zu,k,k,k),B.vi,B.MS,B.vl,A.e5(A.d([new A.wf("View My Work",B.zY,new A.a4_(l),k),B.vd,new A.wJ("Contact Me",B.A1,new A.a40(),k)],m),B.K,B.er,B.am),B.vl,A.a0z(B.vS,A.d([new A.mw("GitHub",B.hu,B.n,new A.a41(),k),new A.mw("LinkedIn",B.kh,B.jw,new A.a42(),k),new A.mw("pradhan.adi586@gmail.com",B.zT,B.aF,new A.a43(),k)],m),10,12)],m),B.K,B.er),r,k,!0),s),B.t,k,k,k,k,i.a.b-65,j,k,k,k,k,k)},
 QJ(){return new A.mv(this.ax[1],"About Me","Who I am",A.alK(new A.a3S()),null)},
 QS(){return new A.mv(this.ax[4],"Projects","What I have built",A.di(A.d([A.a9M(B.n,"Interactive Power BI dashboard visualising product sales KPIs, inventory levels, and category performance with drill-down filters.",B.zZ,!1,new A.a48(),B.BR,"Sales Dashboard \u2013 Power BI"),B.vj,A.a9M(B.aF,"Exploratory data analysis on a large e-commerce dataset using Pandas and Matplotlib to uncover customer behaviour patterns.",B.A4,!1,new A.a49(),B.BZ,"EDA on E-Commerce Dataset"),B.vj,A.a9M(B.fM,"I will create something new.",B.zW,!0,new A.a4a(),B.Cx,"Next Project Here")],t.p),B.K,B.y),null)},
 QL(){var s=null,r=t.p
-return A.cE(s,A.di(A.d([new A.Aw(A.ak(20,B.h.t()>>>16&255,B.h.t()>>>8&255,B.h.t()&255),s),B.eY,A.Zt(B.MU,new A.a3T()),B.iw,B.MY,B.eX,A.e5(A.d([new A.ml("GitHub",new A.a3U(),s),B.ve,new A.ml("LinkedIn",new A.a3V(),s),B.ve,new A.ml("Email",new A.a3W(),s)],r),B.K,B.er,B.am),B.eX,A.c0("\xa9 2025 Aditya Kumar Pradhan  \u2022  Built with Flutter \ud83d\udc9c",A.dM(s,s,A.ak(38,B.h.t()>>>16&255,B.h.t()>>>8&255,B.h.t()&255),s,s,s,s,s,s,s,s,12,s,s,s,s,s,!0,s,s,s,s,s,s,s,s))],r),B.K,B.y),B.t,s,s,s,s,s,s,s,B.zw,s,s,s)}}
+return A.cE(s,A.di(A.d([new A.Aw(A.ak(20,B.h.t()>>>16&255,B.h.t()>>>8&255,B.h.t()&255),s),B.eY,A.Zt(B.MV,new A.a3T()),B.iw,B.MY,B.eX,A.e5(A.d([new A.ml("GitHub",new A.a3U(),s),B.ve,new A.ml("LinkedIn",new A.a3V(),s),B.ve,new A.ml("Email",new A.a3W(),s)],r),B.K,B.er,B.am),B.eX,A.c0("\xa9 2025 Aditya Kumar Pradhan  \u2022  Built with Flutter \ud83d\udc9c",A.dM(s,s,A.ak(38,B.h.t()>>>16&255,B.h.t()>>>8&255,B.h.t()&255),s,s,s,s,s,s,s,s,12,s,s,s,s,s,!0,s,s,s,s,s,s,s,s))],r),B.K,B.y),B.t,s,s,s,s,s,s,s,B.zw,s,s,s)}}
 A.a4d.prototype={
 $0(){var s=this.a
 if(s.c!=null){s=s.d
@@ -34730,7 +34730,7 @@ A.a46.prototype={
 $2(a,b){var s=this.a.z
 s===$&&A.a()
 s=s.b.a0(s.a.gq())
-return A.ae5(A.Zt(B.MS,new A.a45()),s)},
+return A.ae5(A.Zt(B.MT,new A.a45()),s)},
 $S:67}
 A.a45.prototype={
 $1(a){return B.c2.qt(a)},
@@ -34779,7 +34779,7 @@ $0(){return A.pO("pradhan.adi586@gmail.com")},
 $S:0}
 A.a3S.prototype={
 $2(a,b){var s,r,q=null,p=b.b>600,o=p?B.ax:B.aP,n=p?3:1,m=t.p
-n=A.nh(A.di(A.d([B.MT,B.vk,A.a0z(B.bj,B.AW,10,10),B.vk,A.e5(A.d([new A.pq("GitHub",B.hu,B.n,new A.a3Q(),q),B.vc,new A.pq("LinkedIn",B.kh,B.jw,new A.a3R(),q)],m),B.K,B.y,B.am)],m),B.U,B.y),n)
+n=A.nh(A.di(A.d([B.MU,B.vk,A.a0z(B.bj,B.AW,10,10),B.vk,A.e5(A.d([new A.pq("GitHub",B.hu,B.n,new A.a3Q(),q),B.vc,new A.pq("LinkedIn",B.kh,B.jw,new A.a3R(),q)],m),B.K,B.y,B.am)],m),B.U,B.y),n)
 s=p?40:0
 s=A.a9f(q,p?0:28,s)
 r=p?2:1
@@ -64057,8 +64057,8 @@ B.xP=new A.qq(null,null,null,null,null,null)
 B.h=new A.B(1,1,1,1,B.f)
 B.c0=new A.dZ(900)
 B.Md=new A.k(!0,B.h,null,null,null,null,30,B.c0,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.MV=new A.dL("AKP",null,B.Md,null,null)
-B.xQ=new A.qr(B.aw,null,null,B.MV,null)
+B.MW=new A.dL("AKP",null,B.Md,null,null)
+B.xQ=new A.qr(B.aw,null,null,B.MW,null)
 B.xR=new A.qt(null,null,null,null,null,null,null,null,null)
 B.bU=new A.mW(0,"none")
 B.bV=new A.mW(1,"isTrue")
@@ -66112,17 +66112,17 @@ B.Jp=new A.k(!0,B.l,null,".AppleSystemUIFont",null,null,null,null,null,null,null
 B.MQ=new A.df(B.KY,B.K2,B.KZ,B.Ll,B.JK,B.JS,B.Km,B.Lh,B.Kw,B.LJ,B.Ji,B.Jx,B.LF,B.LX,B.Jp)
 B.JG=new A.k(!0,B.x,null,null,null,null,14,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.MR=new A.dL("DevOps Engineer \u2022 Flutter Developer",null,B.JG,null,null)
-B.Kc=new A.k(!0,B.h,null,null,null,null,22,B.c0,null,3,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.MS=new A.dL("AKP",null,B.Kc,null,null)
-B.JQ=new A.k(!0,B.x,null,null,null,null,15,null,null,null,null,null,1.9,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.MT=new A.dL("MCA graduate with hands-on experience in Linux, Docker, CI/CD pipelines, and cloud platforms (AWS, GCP).Built and deployed a containerized Flutter application with a full DevOps pipeline including GitHub Actions, Kubernetes, and Terraform. Experienced in IT support, technical troubleshooting, and cross-functional collaboration. Seeking a Cloud/DevOps Engineer or IT Support role to apply infrastructure automation and cloud skills in a production environment.",null,B.JQ,null,null)
-B.K9=new A.k(!0,B.h,null,null,null,null,20,B.e9,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.MU=new A.dL("Aditya Kumar Pradhan",null,B.K9,null,null)
-B.Je=new A.k(!0,B.h,null,null,null,null,44,B.c0,null,null,null,null,1.1,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.MW=new A.dL("Aditya Kumar Pradhan",null,B.Je,B.ck,null)
 B.zI=new A.AY(1,"italic")
 B.Kd=new A.k(!0,B.bY,null,null,null,null,15,null,B.zI,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.MX=new A.dL(" PipeLine.",null,B.Kd,B.ck,null)
+B.MS=new A.dL("From Code to Cloud.",null,B.Kd,B.ck,null)
+B.Kc=new A.k(!0,B.h,null,null,null,null,22,B.c0,null,3,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.MT=new A.dL("AKP",null,B.Kc,null,null)
+B.JQ=new A.k(!0,B.x,null,null,null,null,15,null,null,null,null,null,1.9,null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.MU=new A.dL("MCA graduate with hands-on experience in Linux, Docker, CI/CD pipelines, and cloud platforms (AWS, GCP).Built and deployed a containerized Flutter application with a full DevOps pipeline including GitHub Actions, Kubernetes, and Terraform. Experienced in IT support, technical troubleshooting, and cross-functional collaboration. Seeking a Cloud/DevOps Engineer or IT Support role to apply infrastructure automation and cloud skills in a production environment.",null,B.JQ,null,null)
+B.K9=new A.k(!0,B.h,null,null,null,null,20,B.e9,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.MV=new A.dL("Aditya Kumar Pradhan",null,B.K9,null,null)
+B.Je=new A.k(!0,B.h,null,null,null,null,44,B.c0,null,null,null,null,1.1,null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.MX=new A.dL("Aditya Kumar Pradhan",null,B.Je,B.ck,null)
 B.JE=new A.k(!0,B.bY,null,null,null,null,13,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.MY=new A.dL("Data Analyst  \u2022  Flutter developer",null,B.JE,null,null)
 B.MZ=new A.dL("\ud83d\udd11 Key Concepts",null,B.vC,null,null)
