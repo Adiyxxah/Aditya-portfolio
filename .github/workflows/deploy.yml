@@ -22,3 +22,8 @@ jobs:
         run: flutter pub get
       - name: Build Flutter Web
         run: flutter build web --release --base-href "/Aditya-portfolio/"
+      - name: Upload Web Build
+        uses: actions/upload-artifact@v4
+        with:
+         name: flutter-web
+         path: build/web
