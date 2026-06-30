@@ -426,10 +426,9 @@ class _PortfolioHomeState extends State<PortfolioHome>
           role: 'Junior Analyst Intern', company: 'Tech3i', period: 'Dec 2024 – Jun 2025',
           color: const Color(0xFF00D4FF), icon: Icons.analytics_rounded,
           bullets: const [
-            'Supported ETL processes for structured data migration',
-            'Wrote and optimised SQL queries for internal reporting',
-            'Performed data validation to ensure data integrity',
-            'Enhanced Excel-based reports with advanced formulas and formatting',
+            '	Wrote and optimized SQL queries to support internal reporting and data validation tasks, improving accuracy and turnaround time for business stakeholders.',
+            '	Supported ETL pipeline processes — extracted, transformed, and loaded structured data, gaining foundational exposure to data workflow automation.',
+            'Enhanced Excel-based reports with advanced formulas and formatting.',
           ],
         ),
         const SizedBox(height: 18),
@@ -453,11 +452,11 @@ class _PortfolioHomeState extends State<PortfolioHome>
       title: 'Skills', subtitle: 'What I work with',
       child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
         _SkillGroup(category: ' Cloud Platforms ', skills: const [
-          _SkillItem('AWS', 0.85), _SkillItem('GCP', 0.90),
+          _SkillItem('AWS (EC2, S3, IAM, VPC, Lambda, CloudWatch),', 0.85), _SkillItem('GCP', 0.90),
         ]),
         const SizedBox(height: 26),
-        _SkillGroup(category: '💻 Languages', skills: const [
-          _SkillItem('SQL', 0.85), _SkillItem('Python', 0.75), _SkillItem('Dart', 0.65),
+        _SkillGroup(category: '💻Scripting & Languages', skills: const [
+          _SkillItem('SQL', 0.65), _SkillItem('Python', 0.75), _SkillItem('Dart', 0.65),_SkillItem('Bash/Shell Scripting', 0.85)
         ]),
         const SizedBox(height: 26),
         _SkillGroup(category: '☁️ Cloud & Databases', skills: const [
