@@ -530,7 +530,7 @@ class _PortfolioHomeState extends State<PortfolioHome>
           description: 'I will create something new.',
           tags: const ['LANG - N/A'],
           color: const Color(0xFFFF6CAB), icon: Icons.add_circle_outline_rounded,
-          isComingSoon: true,
+          isComingSoon: false,
           onGitHub: () => openLink(kGitHub),
         ),
       ]),
