@@ -451,7 +451,7 @@ class _PortfolioHomeState extends State<PortfolioHome>
       sectionKey: _keys[3],
       title: 'Skills', subtitle: 'What I work with',
       child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-        _SkillGroup(category: ' Cloud Platforms ', skills: const [
+        _SkillGroup(category: '☁️ Cloud Platforms ', skills: const [
           _SkillItem('AWS (EC2, S3, IAM, VPC, Lambda, CloudWatch),', 0.85), _SkillItem('GCP', 0.90),
         ]),
         const SizedBox(height: 26),
@@ -459,17 +459,40 @@ class _PortfolioHomeState extends State<PortfolioHome>
           _SkillItem('SQL', 0.65), _SkillItem('Python', 0.75), _SkillItem('Dart', 0.65),_SkillItem('Bash/Shell Scripting', 0.85)
         ]),
         const SizedBox(height: 26),
-        _SkillGroup(category: '☁️ Cloud & Databases', skills: const [
-          _SkillItem('MySQL', 0.80), _SkillItem('AWS S3', 0.60),
+        _SkillGroup(category: 'Containers & Orchestration', skills: const [
+          _SkillItem('Docker', 0.80), _SkillItem('Kubernetes', 0.60), _SkillItem('Helm',0.60)
+        ]),
+        const SizedBox(height: 26),
+        _SkillGroup(category: 'Infrastructure as Code', skills: const [
+          _SkillItem('Terraform', 0.80), _SkillItem('Ansible', 0.60),
+        ]),
+        const SizedBox(height: 26),
+        _SkillGroup(category: 'CI/CD & Pipeline Automation', skills: const [
+          _SkillItem('GitHub Action', 0.80), _SkillItem('Jenkins', 0.60), _SkillItem('Git',0.60)
+        ]),
+        const SizedBox(height: 26),
+        _SkillGroup(category: 'System Administration', skills: const [
+          _SkillItem('Linux(Ubuntu/CentOS)', 0.80), _SkillItem('Windows', 0.60), _SkillItem('Networking',0.60), _SkillItem('Debugging&Troubleshooting',0.60)
+        ]),
+        const SizedBox(height: 26),
+        _SkillGroup(category: 'Monitoring & Logging', skills: const [
+          _SkillItem('Docker', 0.80), _SkillItem('Prometheus', 0.60), _SkillItem('Grafana',0.60), _SkillItem('CloudWatch',0.60), _SkillItem('Docker logs',0.60)
+        ]),
+        const SizedBox(height: 26),
+        _SkillGroup(category: 'Networking Concepts', skills: const [
+          _SkillItem('TCP/IP', 0.80), _SkillItem('DNS', 0.60), _SkillItem('HTTP/HTTPS',0.60), _SkillItem('SSH',0.60), _SkillItem('VPC',0.60)
+        ]),
+        const SizedBox(height: 26),
+        _SkillGroup(category: 'Tools', skills: const [
+          _SkillItem('VS Code', 0.80), _SkillItem('Android Studio', 0.70), _SkillItem('Git',0.60)
         ]),
         const SizedBox(height: 26),
         const Text('🔑 Key Concepts', style: TextStyle(fontSize: 15, fontWeight: FontWeight.w600, color: Colors.white70)),
         const SizedBox(height: 12),
         Wrap(spacing: 10, runSpacing: 10, children: const [
-          _TagChip('Data Cleaning'),     _TagChip('Data Visualisation'),
-          _TagChip('EDA'),               _TagChip('Basic ETL'),
-          _TagChip('Dashboard Design'),  _TagChip('Data Validation'),
-          _TagChip('Report Automation'), _TagChip('Inventory Management'),
+          _TagChip('Infrastructure as Code'),     _TagChip('Containerization'),
+          _TagChip('Microservices'),               _TagChip('Agile/SDLC'),
+          _TagChip('CI/CD Automation'),
         ]),
       ]),
     );
@@ -482,18 +505,21 @@ class _PortfolioHomeState extends State<PortfolioHome>
       title: 'Projects', subtitle: 'What I have built',
       child: Column(children: [
         _ProjectCard(
-          title: 'Sales Dashboard – Power BI',
-          description: 'Interactive Power BI dashboard visualising product sales KPIs, inventory levels, and category performance with drill-down filters.',
-          tags: const ['Power BI', 'Excel', 'SQL'],
+          title: 'SkyCast — Flutter Weather App with DevOps Pipeline  ',
+          description: 'Built a production-ready Flutter weather application and containerized it using Docker, writing optimized multi-stage Dockerfiles to minimize image size.'
+                       'Designed and implemented a CI/CD pipeline using GitHub Actions — automated build, test, and Docker image push to registry on every commit.'
+                       'Provisioned cloud infrastructure on GCP/AWS using Terraform, applying Infrastructure as Code (IaC) principles for repeatable environment setup.'
+                       'Integrated OpenWeatherMap REST API, managed environment variables and secrets securely within the pipeline.',
+          tags: const ['Flutter', 'Docker', 'GitHub Action',' Terraform', 'Kubernetes','Aws'],
           color: const Color(0xFF6C63FF), icon: Icons.bar_chart_rounded,
           isComingSoon: false,
           onGitHub: () => openLink(kGitHub), // opens your GitHub
         ),
         const SizedBox(height: 16),
         _ProjectCard(
-          title: 'EDA on E-Commerce Dataset',
-          description: 'Exploratory data analysis on a large e-commerce dataset using Pandas and Matplotlib to uncover customer behaviour patterns.',
-          tags: const ['Python', 'Pandas', 'Matplotlib'],
+          title: 'Next Project Here ',
+          description: ' Coming Soon.',
+          tags: const ['LANG - N/A'],
           color: const Color(0xFF00D4FF), icon: Icons.data_exploration_rounded,
           isComingSoon: false,
           onGitHub: () => openLink(kGitHub),
@@ -502,7 +528,7 @@ class _PortfolioHomeState extends State<PortfolioHome>
         _ProjectCard(
           title: 'Next Project Here',
           description: 'I will create something new.',
-          tags: const ['Coming Soon'],
+          tags: const ['LANG - N/A'],
           color: const Color(0xFFFF6CAB), icon: Icons.add_circle_outline_rounded,
           isComingSoon: true,
           onGitHub: () => openLink(kGitHub),
@@ -523,7 +549,7 @@ class _PortfolioHomeState extends State<PortfolioHome>
           child: const Text(kName, style: TextStyle(fontSize: 20, fontWeight: FontWeight.w700, color: Colors.white)),
         ),
         const SizedBox(height: 6),
-        const Text('Data Analyst  •  Flutter developer', style: TextStyle(color: Colors.white38, fontSize: 13)),
+        const Text('DevOps Engineer  •  Flutter developer', style: TextStyle(color: Colors.white38, fontSize: 13)),
         const SizedBox(height: 18),
         Row(mainAxisAlignment: MainAxisAlignment.center, children: [
           _FooterLink(label: 'GitHub',   onTap: () => openLink(kGitHub)),
